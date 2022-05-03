@@ -1,6 +1,3 @@
-function multy(a,b){
-    return a*b;
-}
 const multy = (a,b) => {
     return a*b;
 }
