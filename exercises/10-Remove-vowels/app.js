@@ -1,12 +1,9 @@
-const rapid = (myString) => {
-    let consonants = [];
-    for(let letter of myString){
-        if(['a','e','i','o','u'].includes(letter) == false)
-            consonants.push()(letter)
+const rapid = (string) => {
+    for(let i = 0; i<string.length; i++){
+        return string.replace(/[aeiou]/ig,'').toUpperCase();
     }
-    return consonants.join('');
-};
-
-// Work above this line; do not change code below
-let str = "John";
-console.log(rapid(str));
+  }
+     // From this line up Do not change code below
+     let str = "John";
+     console.log(rapid(str));
+  

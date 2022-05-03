@@ -1,8 +1,8 @@
-//Define the function called "multi" that expects 2 parameters:
-function multi(number1, number2){
-  return number1 * number2
+var multy = function(a,b){
+  return a*b;
 }
+//Dont edit anything ABOVE this line
 
-  //don't edit anything below this line
-  var returnValue = multi(7,53812212);
-  console.log(returnValue);
+//your code here
+var result = multy(324234,47)
+console.log(result)
